@@ -1,0 +1,446 @@
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  margin: 0;
+  background: #29292c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main__page--erapper {
+  background: url(../img/background_lion-header\ 1.png) center top no-repeat, url(../img/background_bottom-pic\ 1.png) right bottom 307px no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  position: relative;
+}
+
+.header {
+  height: 120px;
+  position: relative;
+  margin-bottom: 136px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 32px;
+  left: 0;
+}
+
+.menu {
+  position: absolute;
+  top: 39px;
+  left: 256px;
+
+}
+
+.contacts {
+  position: absolute;
+  top: 23px;
+  right: 0;
+  font-style: normal;
+  text-align: right;
+
+}
+
+.contacts__desc {
+  color: #999;
+  font-size: 11px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__item--active .menu__link {
+  color: #dfb56d;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #dfb56d;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+
+}
+
+.contacts__timetable {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #dfb56d;
+
+}
+
+.hero__text-section {
+  width: 493px;
+  margin-bottom: 182px;
+}
+
+.hero__tittle {
+  font-size: 58px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 26px;
+}
+
+.hero__subtittle {
+  font-size: 18px;
+  color: #dfb56d;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background: #dfb56d;
+  border-radius: 4px;
+  padding: 16px 39px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #d3a556;
+  box-shadow: 0 0 25px 0 rgba (223, 181, 109, .15);
+}
+
+.btn--color--ginger:hover {
+  background: #d3a556;
+  box-shadow: 0 0 25px 0 rgba (223, 181, 109, .15);
+
+}
+
+.btn--color--black {
+  background: #202123;
+}
+
+.btn--color--black:hover {
+  background: #dfb56d;
+}
+
+.section {
+  margin-bottom: 121px;
+
+}
+
+
+
+.section_about {
+  margin-bottom: 66px;
+}
+
+.section__title {           /* не сповпадает */
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 55px;
+
+}
+
+.offers__item {
+  min-height: 448px;
+  background: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 22px;
+  width: 362px;
+  color: #000;
+  overflow: hidden;
+  
+}
+
+.offers__item--theme--grey .offers__header:before {
+  background: #a5a5a4;
+}
+
+.offers__item--theme--blue .offers__header:before {
+  background: #556180;
+}
+
+.offers__item--theme--gold .offers__header:before {
+  background: #978455;
+}
+
+.offers__header {
+  min-height: 162px;
+  position: relative;
+}
+
+.offers__header::before {
+  content: "";
+  width: 284px;
+  height: 284px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: -160px;
+  right: -105px;
+  background: #ccc;
+}
+
+.offers__header-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -44px;
+  margin-top: -40px;
+}
+
+.offers__item:last-child {
+  margin-right: 0px;
+}
+
+.offers__content {
+  padding: 15px 22px;
+}
+
+.offers__title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 15px;
+
+}
+
+.offers__prices-cell {
+  display: inline-block;
+  vertical-align: top;
+  width: 139px;
+  margin-right: 21px;
+}
+
+.offers__prices-cell:last-child {
+  margin-right: 0;
+}
+
+.offers__price {
+  font-size: 36px;
+}
+
+.offers__price-desc {
+  color: #333;
+}
+
+.offers__prices {
+  margin-bottom: 50px;
+}
+
+.offers__btn-wrapper {
+  text-align: center;
+}
+
+.news {
+  margin-bottom: 47px;
+}
+
+.news__item {
+  width:  555px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 24px;
+}
+.news__item:last-child {
+  margin-right: 0;
+}
+
+.news__cover{                        /* этого блока нет! */
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+} 
+.news__text-content {
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom: 0;
+  padding: 0px 30px;
+  min-height: 146px;
+}
+
+.news__date {              /* шрифт не совпадает */
+  display: block;
+  font-size: 14px;
+  margin-bottom: 16px;     /* почему не могу опустить маржином? */
+
+}
+
+.news__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.pager {
+  text-align: center;
+}
+
+.pager__display,.pager__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__item--active .pager__link {
+  background: #353538;
+}
+
+.pager__display {
+  margin-right: 26px;
+}
+
+.pager__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration:none;
+  font-weight: bold;
+  line-height: 32px;
+
+}
+
+.about:before, .about__desc {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 4px;
+}
+
+.about:before {
+  content: "";
+  width: 488px;
+  height: 502px;
+  background: url(../img/chess.png) center center/ cover no-repeat ;
+}
+
+.about__desc {
+  background: #202123;
+  padding: 101px 78px;
+  width: 785px;
+  margin-left: -138px;
+  margin-top: 100px;
+}
+
+.about_title {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 40px;
+
+}
+
+.about__desc-text {
+  margin-bottom: 73px;
+}
+
+.about__desc-text p {
+  margin-bottom: 20px;
+}
+
+.about__desc-text p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-conteiner__content {
+  border-top: 1px solid #353538;
+}
+
+.footer {
+  height: 152px;
+  position: relative;
+}
+
+.socials {
+  position: absolute;
+  top: 28px;
+  right: 253px;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+ margin-right: 0  ;
+}
+
+.socials__item--icon--telegram .socials__link {
+  background-image: url(../img/socials_telegram.png);
+}
+.socials__item--icon--vk .socials__link {
+  background-image: url(../img/socials_vk.png);
+}
+.socials__item--icon--facebook .socials__link {
+  background-image: url(../img/socials_f.png);
+}
+.socials__item--icon--instagram .socials__link {
+  background-image: url(../img/socials_in.png);
+}
