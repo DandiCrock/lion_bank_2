@@ -31,7 +31,7 @@ p {
 }
 
 .main__page--erapper {
-  background: url(../img/background_lion-header\ 1.png) center top no-repeat, url(../img/background_bottom-pic\ 1.png) right bottom 307px no-repeat;
+  background: url(./img/background_lion-header\ 1.png) center top no-repeat, url(./img/background_bottom-pic\ 1.png) right bottom 307px no-repeat;
 }
 
 h1,
@@ -369,7 +369,7 @@ object-fit: cover;
   content: "";
   width: 488px;
   height: 502px;
-  background: url(../img/chess.png) center center/ cover no-repeat ;
+  background: url(./img/chess.png) center center/ cover no-repeat ;
 }
 
 .about__desc {
@@ -433,14 +433,14 @@ object-fit: cover;
 }
 
 .socials__item--icon--telegram .socials__link {
-  background-image: url(../img/socials_telegram.png);
+  background-image: url(./img/socials_telegram.png);
 }
 .socials__item--icon--vk .socials__link {
-  background-image: url(../img/socials_vk.png);
+  background-image: url(./img/socials_vk.png);
 }
 .socials__item--icon--facebook .socials__link {
-  background-image: url(../img/socials_f.png);
+  background-image: url(./img/socials_f.png);
 }
 .socials__item--icon--instagram .socials__link {
-  background-image: url(../img/socials_in.png);
+  background-image: url(./img/socials_in.png);
 }
